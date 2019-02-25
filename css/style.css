@@ -464,9 +464,22 @@ textarea{
 	align-items: center;
 	flex-direction: column;
 }
-.logorodape{
-display: none;
+	.logorodape{
+	display: none;
+	}
+	.sociais{
+	width: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
+	.rodape{
+		font-size: 20px;
+	}
+	#siga{
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 1300px){
