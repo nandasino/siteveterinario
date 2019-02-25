@@ -1,0 +1,559 @@
+*{
+	margin:0;
+	font-size: 100%;
+	border:none;
+	outline: :none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+.cabecalho{
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+}
+.logo{
+	float: left;
+}
+#btn-menu{
+	width: 56px;
+	height: 56px;
+	float: right;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor:pointer;
+	background:linear-gradient(to right,#eeeeff);
+}
+.menu{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top:0;
+	left: 0;
+}
+.menu ul{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.menu li{
+	padding: 2.5%;
+}
+.menu li a {
+	font-size: 2em;
+	color:#fff;
+	padding: 2.5% 3%;
+}
+.menu li a:hover{
+	border:1px solid #d78c2c;
+}
+#btn-close{
+	font-size:3em;
+	color:#fff;
+	float: right;
+	cursor:pointer;
+	margin-right: 5%;
+}
+
+.banner{
+	float:left;
+	text-align:center;
+	background-image: url(../imagens/banner.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 498px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#textobanner{
+	font-size: 2.5em;
+	color: white;
+	font-weight:700; 
+}
+
+#caixadetexto{
+	float: left;
+	width: 100%;
+	box-sizing: contain;
+	padding-top: 3%;
+}
+.titulo{
+	font-family: 'Ubuntu', sans-serif;
+	color:#616161;
+	font-weight:700;
+	font-size:3em;
+	text-align: center;
+}
+.subtitulo{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	color:#616161;
+	font-weight:700;
+	font-size:2em;
+	text-align: center;
+}
+
+.servico{
+	float: left;
+	width: 400px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.tituloserv{
+	font-weight:700;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Ubuntu', sans-serif;
+	color:#616161;
+}
+	.imagemserv{
+		width: 300px;
+		float: left;
+	}
+.textoserv{
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Ubuntu', sans-serif;
+	color:#616161;
+}
+#especialidades{
+	float:left;
+	text-align:center;
+	background-image: url(../imagens/servicos.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 480px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icone{
+	width: 30%;
+	float: left;
+}
+.icones{
+	width: 100%;
+	padding-left:40%;
+}
+.card1{
+	width: 30%;
+	height: 50%;
+	background-color:#ffd08a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.card2{
+	width: 30%;
+	height: 50%;
+	background-color:#ffbd59;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.card3{
+	width: 30%;
+	height: 50%;
+	background-color:#d78c2c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.textocard{
+	font-size: 2em;
+	font-family: 'Ubuntu', sans-serif;
+	color:white;
+	text-align: center;
+	margin-top: 5%;
+}
+.imagemcard{
+	margin: 15%;
+	width: 30%;
+}
+#contato{
+	float: left;
+	width: 100%;
+	background-color: #f8f7f8;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.dogcontato{
+	width:35%;
+	float: left;
+}
+.caixacontato{
+	float: left;
+	padding-top: 75px;
+	margin-left: 30px;
+	padding: 20px;
+	width: 40%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+}
+.titulocontato{
+	font-family: 'Ubuntu', sans-serif;
+	color:#616161;
+	font-weight:600;
+}
+
+input{
+	padding: 5px;
+	width: 80%;
+	background-color: #eef0f2;
+}
+textarea{
+	padding: 5px;
+	width: 80%;
+	background-color: #eef0f2;
+}
+.botao{
+	background-color: #ffbd59;
+	color: white;
+	width: 100px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5em;
+
+}
+.consultorio{
+	width: 400px;
+	float: left;
+	margin-left: 5%;
+}
+#quemsomos{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5%;
+}
+.textoquemsomos{
+	width: 400px;
+	float: left;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	color: #616161;
+}
+	.tituloquemsomos{
+	font-weight:700;
+	}
+@media only screen and (max-width:1300px){
+	.logorodape1{
+	display: none;
+	}
+	.banner{
+	width: 100%;
+	height: 349px;
+	}
+	#textobanner{
+	font-size: 2em;
+	color: white;
+	font-weight:700; 
+}
+	.caixadetexto{
+		margin-top:0;
+		padding-top: 0;
+	}
+		.titulo{
+		font-size:2em;
+	}
+	.subtitulo{
+		font-size:1em;
+	}
+ 	.servicos{
+	width: 100%;
+	height: 800px;
+	padding-left: 20.5%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+ 	.servico{
+	float: left;
+	width: 25%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.tituloserv{
+	font-weight:700;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Ubuntu', sans-serif;
+	color:#616161;
+}
+	.imagemserv{
+		width: 200px;
+		float: left;
+	}
+.textoserv{
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Ubuntu', sans-serif;
+	color:#616161;
+}
+	#especialidades{
+	margin-top:5%;
+	height: 350px;
+	}
+	.navbar{
+		display: none;
+	}
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 35%;
+}
+.card1{
+	width: 30%;
+	height: 50%;
+
+}
+.card2{
+	width: 30%;
+	height: 50%;
+
+}
+.card3{
+	width: 30%;
+	height: 40%;
+
+}
+.textocard{
+	font-size: 1.5em;
+
+}
+.imagemcard{
+	width: 30%;
+}
+
+@media only screen and (max-width: 700px){
+	.banner{
+	width: 100%;
+	height: 249px;
+	}
+	#textobanner{
+	font-size: 1.5em;
+	color: white;
+	font-weight:700; 
+	margin-block-end: 5%;
+}
+	.caixadetexto{
+		margin-top:0;
+		padding-top: 0;
+	}
+	.titulo{
+		font-size:1.5em;
+	}
+	.subtitulo{
+		font-size:1em;
+	}
+	.servicos{
+		margin-top: 0;
+		width: 100%;
+		height: 2000px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding-left: 0;
+	}
+	.servico{
+	float: left;
+	width: 100%;
+	height: 320px;
+	padding-top: 5%;
+	}
+	.imagemserv{
+		width: 200px;
+		float: left;
+	}
+	#especialidades{
+		margin-top:5%;
+		height: 250px;
+	}
+	.card1{
+	width: 30%;
+	height: 60%;
+
+	}
+	.card2{
+		width: 30%;
+		height: 60%;
+
+	}
+	.card3{
+		width: 30%;
+		height: 60%;
+	}
+	.textocard{
+		font-size: 1em;
+	}
+	.imagemcard{
+		width: 30%;
+	}
+	.icones{
+	width: 100%;
+	padding-left:0;
+}
+	#contato{
+		width:100%;
+		height: 550px;
+	}
+	.dogcontato{
+		display: none;
+	}
+	.navbar{
+		display: none;
+	}
+	.caixacontato{
+	width: 380px;
+}
+	.textoquemsomos{
+	font-size: 15px;
+
+}
+	.tituloquemsomos{
+	font-size: 20px;
+	}
+.titulocontato{
+	font-family: 'Ubuntu', sans-serif;
+	color:#616161;
+	font-weight:600;
+	font-size: 1.5em;
+}
+	#quemsomos{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.logorodape{
+display: none;
+}
+}
+
+@media only screen and (min-width: 1300px){
+	.servicos{
+	float: left;
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	}
+	#btn-menu{
+		display: none;
+	}
+	#btn-close{
+		display: none;
+	}
+	.navbar{
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	background-color:#eeeeff;
+	}
+	.navbar a {
+		text-decoration: none;
+		font-family: 'Ubuntu', sans-serif;
+		margin-top: 25px;
+		float: right;
+		margin-right:60px;
+		color: #7c7c7d;
+		font-size:1.8em;
+	}
+	.navbar a:hover{
+	    color:#4a4a4b;
+	}
+	.logo {
+		width: 190px;
+		margin-left:30px; 
+		float:left;
+		margin-top: 15px;
+	}
+	#logobotao{
+		display: none;
+	}
+	.cabecalho{
+		display: none;
+	}
+	.logorodape1{
+	display: none;
+	}
+}
+.rodape{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+	width: 100%;
+	height: 300px;
+	background-color:#323232;	
+	padding: 15%;
+}
+.sociais{
+	width: 50px;
+	float: left;
+	padding: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nossiga{
+	color: white;
+	float: left;
+	padding-left: 15%;
+}
+.contatenos{
+	color: white;
+	padding-left: 15%;
+}
+.logorodape{
+	float: left;
+	width: 250px;
+}
+.direitos{
+	color: white;
+}
+.marca{
+	width: 250px;
+	float: left;
+}
