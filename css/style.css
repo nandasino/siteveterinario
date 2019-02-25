@@ -127,6 +127,13 @@ img{
 	.imagemserv{
 		width: 300px;
 		float: left;
+		box-shadow:  1px 5px 8px #4a4a4b;
+		transition: box-shadow 0.5s;
+		border-radius: 150px;
+	}	
+
+	.imagemserv:hover{
+	box-shadow:  5px 10px 20px #4a4a4b;
 	}
 .textoserv{
 	float: left;
@@ -182,6 +189,7 @@ img{
 	align-items: center;
 	flex-direction: column;
 }
+
 .textocard{
 	font-size: 2em;
 	font-family: 'Ubuntu', sans-serif;
@@ -192,6 +200,9 @@ img{
 .imagemcard{
 	margin: 15%;
 	width: 30%;
+}
+.imagemcard:hover{
+	width: 40%;
 }
 #contato{
 	float: left;
